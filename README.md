@@ -13,6 +13,21 @@ This Visual Studio Code extension allows you to open FITS files in a browser usi
 2. Select "Open FITS File" from the context menu.
 3. The FITS file will open in your default web browser.
 
+## Development
+
+This uses scafolding code 'yo', installed with:
+
+```bash
+npm install -g yo generator-code
+```
+
+And run to create the structure of the repos:
+```bash
+yo code
+```
+
+Updates are in `src/extension.ts` and `package.json`
+
 ## Installation
 
 ### From VSIX File
