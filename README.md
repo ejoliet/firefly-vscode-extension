@@ -15,7 +15,7 @@ This Visual Studio Code extension allows you to open FITS files in a browser usi
 
 ## Development
 
-This uses scafolding code 'yo', installed with:
+This uses scaffolding code 'yo', installed with:
 
 ```bash
 npm install -g yo generator-code
@@ -28,7 +28,45 @@ yo code
 
 Updates are in `src/extension.ts` and `package.json`
 
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 14 or higher recommended)
+- [npm](https://www.npmjs.com/) (usually comes with Node.js)
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+### Setup
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/<USERNAME>/fits-viewer-extension.git
+    cd fits-viewer-extension
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Build the extension:
+    ```bash
+    npm run compile
+    ```
+
+4. Open the extension in VSCode:
+    ```bash
+    code .
+    ```
+
+5. Launch the extension:
+    - Press `F5` to open a new VSCode window with your extension loaded.
+
 ## Installation
+
+Build package with
+
+```bash
+vsce package
+```
 
 ### From VSIX File
 
