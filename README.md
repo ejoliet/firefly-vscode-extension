@@ -38,8 +38,8 @@ Updates are in `src/extension.ts` and `package.json`
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/<USERNAME>/fits-viewer-extension.git
-    cd fits-viewer-extension
+    git clone https://github.com/ejoliet/firefly-vscode-extension.git
+    cd firefly-vscode-extension
     ```
 
 2. Install dependencies:
