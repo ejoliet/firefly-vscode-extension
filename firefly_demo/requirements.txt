@@ -1,7 +1,7 @@
 attrs==24.2.0
 backports.tarfile==1.2.0
 build==1.2.2.post1
-certifi==2024.8.30
+certifi==2026.10.18
 charset-normalizer==3.4.0
 docutils==0.21.2
 h11==0.16.0
